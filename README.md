@@ -1,7 +1,7 @@
 HHVM + Nginx/Pagespeed
 ======================
 
-Runs [HHVM](http://hhvm.com/) behind [Nginx](http://nginx.org/) built with the [Pagespeed module](https://developers.google.com/speed/pagespeed/module/) with[supervisor](http://supervisord.org/).
+Runs [HHVM](http://hhvm.com/) behind [Nginx](http://nginx.org/) built with the [Pagespeed module](https://developers.google.com/speed/pagespeed/module/) with [supervisor](http://supervisord.org/).
 
 Info
 ----
@@ -16,5 +16,5 @@ I've added some logic to the `default.conf` to use the[`ngx_http_realip_module`]
 Key Software Versions
 ---------------------
 
--	Nginx: 1.9.6
--	HHVM: 3.10.1
+-	Nginx: 1.9.9
+-	HHVM: 3.11.0

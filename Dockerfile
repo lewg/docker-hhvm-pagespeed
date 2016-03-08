@@ -1,6 +1,6 @@
-FROM lewg/nginx-pagespeed:1.9.10
+FROM lewg/nginx-pagespeed:1.9.11
 EXPOSE 80
-ENV HHVM_VERSION 3.11.1~jessie
+ENV HHVM_VERSION 3.12.1~jessie
 RUN apt-key adv --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 0x5a16e7281be7a449
 RUN echo deb http://dl.hhvm.com/debian jessie main | tee /etc/apt/sources.list.d/hhvm.list
 RUN apt-get update -qq \

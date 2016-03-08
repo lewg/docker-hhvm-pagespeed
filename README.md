@@ -16,5 +16,5 @@ I've added some logic to the `default.conf` to use the[`ngx_http_realip_module`]
 Key Software Versions
 ---------------------
 
--	Nginx: 1.9.10
--	HHVM: 3.11.1
+-	Nginx: 1.9.11
+-	HHVM: 3.12.1

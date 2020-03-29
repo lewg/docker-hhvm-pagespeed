@@ -1,6 +1,6 @@
-FROM lewg/nginx-pagespeed:1.15.8
+FROM lewg/nginx-pagespeed:1.17.9
 EXPOSE 80
-ENV HHVM_VERSION 3.30.2-1~stretch
+ENV HHVM_VERSION 4.50.0-1~stretch
 RUN apt-get update -qq && apt-get install -y -q gnupg2 && apt-get clean
 RUN apt-key adv --no-tty --recv-keys --keyserver hkp://keyserver.ubuntu.com:80 B4112585D386EB94
 RUN echo deb http://dl.hhvm.com/debian stretch main | tee /etc/apt/sources.list.d/hhvm.list
